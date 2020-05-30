@@ -32,7 +32,7 @@
     <img src="assets/images/Mylogo.png" alt="Logo" width="120" height="120">
   </a>
   <p align="center">
-   an awesome layout of travel UI built with flutter!
+   An awesome layout of travel UI built with flutter!
     <br />
     <br />
   </p>
@@ -165,11 +165,11 @@ Contributions are what make the open source community such an amazing place to b
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
+[contributors-shield]: https://img.shields.io/github/contrivutors/mounir2KH/Travel_UI
 [contributors-url]: https://github.com/mounir2KH/Travel_UI/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/mounir2KH/Travel_UI
 [forks-url]: https://github.com/mounir2KH/Travel_UI/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/mounir2KH/Travel_UI
 [stars-url]: https://github.com/mounir2KH/Travel_UI/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
+[issues-shield]: https://img.shields.io/github/issues/mounir2KH/Travel_UI
 [issues-url]: https://github.com/mounir2KH/Travel_UI/issues
