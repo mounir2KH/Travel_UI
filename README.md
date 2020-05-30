@@ -29,10 +29,10 @@
 <br />
 <p align="center">
   <a href="https://github.com/mounir2KH/Travel_UI">
-    <img src="assets/images/Mylogo.png" alt="Logo" width="80" height="80">
+    <img src="assets/images/Mylogo.png" alt="Logo" width="120" height="120">
   </a>
   <p align="center">
-    #Implementation of an awesome layout of travel UI!
+   an awesome layout of travel UI built with flutter!
     <br />
     <br />
   </p>
@@ -56,7 +56,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<img src="assets/images/ReadmeScreen.png"  align="center" height="400" />
 
 Our latest design is for an app that helps to discover interesting tourist spots. If you’ve ever wanted to enhance the travel industry (or you’re always eager to travel)
 
@@ -124,7 +124,7 @@ Ensure you check the output carefully for other software you may need to install
 
 1. Clone the repo
 ```sh
-git clone https://github.com/your_username_/Project-Name.git
+git https://github.com/mounir2KH/Travel_UI.git
 ```
 2.In Android Studio
            * Open the IDE and select Start a new Flutter project.
@@ -157,7 +157,7 @@ Contributions are what make the open source community such an amazing place to b
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [Travel App for booking unique experience](https://dribbble.com/shots/6510521-Travel-App-for-booking-unique-experience) by [# Julia Tur](https://dribbble.com/julia_tur)
+* [Travel App for booking unique experience](https://dribbble.com/shots/6510521-Travel-App-for-booking-unique-experience) by [Julia Tur](https://dribbble.com/julia_tur)
 
 
 
@@ -173,4 +173,3 @@ Contributions are what make the open source community such an amazing place to b
 [stars-url]: https://github.com/mounir2KH/Travel_UI/stargazers
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
 [issues-url]: https://github.com/mounir2KH/Travel_UI/issues
-[product-screenshot]: assets/images/ReadmeScreen.png
