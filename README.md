@@ -165,7 +165,7 @@ Contributions are what make the open source community such an amazing place to b
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/issues/mounir2KH/Travel_UI?logo=Contributors
+[contributors-shield]: https://img.shields.io/github/contributors/mounir2KH/Travel_UI
 [contributors-url]: https://github.com/mounir2KH/Travel_UI/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/mounir2KH/Travel_UI
 [forks-url]: https://github.com/mounir2KH/Travel_UI/network/members
