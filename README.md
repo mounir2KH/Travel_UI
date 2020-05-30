@@ -18,10 +18,10 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][https://github.com/mounir2KH/Travel_UI/graphs/contributors]
-[![Forks][forks-shield]][https://github.com/mounir2KH/Travel_UI/network/members]
-[![Stargazers][stars-shield]][https://github.com/mounir2KH/Travel_UI/stargazers]
-[![Issues][issues-shield]][https://github.com/mounir2KH/Travel_UI/issues]
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
 
 
@@ -32,7 +32,7 @@
     <img src="assets/images/Mylogo.png" alt="Logo" width="80" height="80">
   </a>
   <p align="center">
-    Implementation of an awesome layout of travel UI!
+    #Implementation of an awesome layout of travel UI!
     <br />
     <br />
   </p>
@@ -46,9 +46,7 @@
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
   * [Installation](#installation)
-* [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [Acknowledgements](#acknowledgements)
@@ -60,72 +58,89 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
+Our latest design is for an app that helps to discover interesting tourist spots. If you’ve ever wanted to enhance the travel industry (or you’re always eager to travel)
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
+A few details:
+
+* To prevent users from visiting separate category pages, we’ve decided to organize content using horizontal scrolling.
+
+* Light-colored background is superb for content-driven interfaces. In this case, it definitely does the trick and helps the user focus primarily on breath-taking spots and views.
 
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
 ### Built With
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
-
+* [Flutter](https://flutter.dev/?gclid=EAIaIQobChMI6d7wjfrb6QIVWJ3VCh20-QUzEAAYASAAEgJJuvD_BwE&gclsrc=aw.ds)
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
+#### STEP 1
+To get started with Flutter, your dev environment must meet the following requirements
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+| Operating Systems        | Windows 7 SP1 or later (64-bit)           |
+| ------------- |:-------------:|
+| Disk Space     | 400 MB (does not include disk space for IDE/tools) |
+| Tool    | Windows PowerShell 5.0 or newer      |
+| Tool | Git for Windows 2.x     |
 
-### Prerequisites
+You can choose either the first tool or second depending on how comfortable you are with either.
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
+#### STEP 2
+
+- Download an installation bundle [here](https://storage.googleapis.com/flutter_infra/releases/stable/windows/flutter_windows_v1.2.1-stable.zip) to get the latest stable release of the Flutter SDK
+- Extract the zip file and place the contained flutter in the desired installation location for the Flutter SDK (eg. C:\src\flutter;  do not install Flutter in a directory like C:\Program Files\ that requires elevated privileges ).
+- Locate the file flutter_console.bat inside the flutter directory. Start it by double-clicking.
+
+Congratulations! You are now ready to run Flutter commands in the Flutter Console!
+
+NOTE: Should you at anytime require an ugrade to a latest Flutter version? [Use this link](https://flutter.dev/docs/development/tools/sdk/upgrading)
+
+
+#### STEP 3 (Optional)
+
+If you wish to run Flutter commands in the regular Windows console, take these steps to add Flutter to the PATH environment variable:
+- From the Start search bar, type ‘env’ and select Edit environment variables for your account
+- Under User variables check if there is an entry called Path(If it exist append the full path to flutter\bin using ; as a separator from existing values else create a new user variable named Path with the full path to flutter\bin as its value)
+
+
+#### STEP 4
+If at any point you need to check your environment and see a report of the status of your Flutter installation, all you need is the command below.
+```windows
+ flutter doctor
+ ```
+ Here is a sample output:
+ ```windows
+[-] Android toolchain - develop for Android devices
+    • Android SDK at D:\Android\sdk
+    ✗ Android SDK is missing command line tools; download from https://goo.gl/XxQghQ
+    • Try re-installing or updating your Android SDK,
+      visit https://flutter.dev/setup/#android-setup for detailed instructions.
+ ```
+Ensure you check the output carefully for other software you may need to install or further tasks to perform (shown in bold text).
+
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
 ```sh
 git clone https://github.com/your_username_/Project-Name.git
 ```
-3. Install NPM packages
-```sh
-npm install
-```
-4. Enter your API in `config.js`
-```JS
-const API_KEY = 'ENTER YOUR API';
-```
+2.In Android Studio
+           * Open the IDE and select Start a new Flutter project.
+           * Select Flutter Application as the project type. Then click Next.
+           * Verify the Flutter SDK path specifies the SDK’s location (select Install SDK… if the text field is blank).
+           * Enter a project name (for example, myapp). Then click Next.
+           * Click Finish.
+           * Wait for Android Studio to install the SDK and create the project.
 
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
+    To run the app in android studio **run>run**
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
-
-
+See the [open issues](https://github.com/mounir2KH/Travel_UI/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -142,17 +157,8 @@ Contributions are what make the open source community such an amazing place to b
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
+* [Travel App for booking unique experience](https://dribbble.com/shots/6510521-Travel-App-for-booking-unique-experience) by [# Julia Tur](https://dribbble.com/julia_tur)
+
 
 
 
@@ -160,7 +166,11 @@ Contributions are what make the open source community such an amazing place to b
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
+[contributors-url]: https://github.com/mounir2KH/Travel_UI/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
+[forks-url]: https://github.com/mounir2KH/Travel_UI/network/members
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
+[stars-url]: https://github.com/mounir2KH/Travel_UI/stargazers
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
-[product-screenshot]: images/screenshot.png
+[issues-url]: https://github.com/mounir2KH/Travel_UI/issues
+[product-screenshot]: assets/images/ReadmeScreen.png
