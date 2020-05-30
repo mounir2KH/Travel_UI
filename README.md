@@ -56,7 +56,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="assets/images/ReadmeScreen.png"   height="700" width="700" />
+<img src="assets/images/ReadmeScreen.png"   height="600" width="600" />
 
 Our latest design is for an app that helps to discover interesting tourist spots. If you’ve ever wanted to enhance the travel industry (or you’re always eager to travel)
 
